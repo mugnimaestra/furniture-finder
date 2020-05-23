@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     const getData = async () => {
-      await axios.get("http://www.mocky.io/v2/5c9105cb330000112b649af8").then(res => {
+      await axios.get("https://www.mocky.io/v2/5c9105cb330000112b649af8").then(res => {
 
         setFurnitures(res.data);
         setFilteredData(res.data.products);
